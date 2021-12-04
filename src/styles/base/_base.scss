@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  background-color: $secondary;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  & #root {
+    width: 100vw;
+    height: 100vh;
+  }
+}
